@@ -1,0 +1,54 @@
+{
+    "id": "stickman",
+    "title": "Stickman",
+    "description": "Dessine un bonhomme (stickman) en utilisant des cercles et des lignes",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "Définis le contour (`stroke`) à noir (`black`) de taille `10`",
+            "solution": "stroke black, 10"
+        },
+        {
+            "hint": "Déplace-toi up sur l'espace de travail, **tape** `move 0, -50`",
+            "solution": "move 0, -50"
+        },
+        {
+            "hint": "Dessine le corps du bonhomme - `line 0, 150`",
+            "solution": "line 0, 150"
+        },
+        {
+            "hint": "Dessine le bras gauche du bonhomme - `line -80, 120`",
+            "solution": "line -80, 120"
+        },
+        {
+            "hint": "Bien, maintenant le bras droit - `line 80, 120`",
+            "solution": "line 80, 120"
+        },
+        {
+            "hint": "Déplace-toi en bas, **tape** `move 0, 150`",
+            "solution": "move 0, 150"
+        },
+        {
+            "hint": "Dessine la jambe gauche du bonhomme: `line -80, 120`",
+            "solution": "line -80, 120"
+        },
+        {
+            "hint": "Bien, maintenant la jambe droite - `line 80, 120`",
+            "solution": "line 80, 120"
+        },
+        {
+            "hint": "Déplace-toi en haut du dessin, **tape** `moveTo 250, 100`",
+            "solution": "moveTo 250, 100"
+        },
+        {
+            "hint": "Définis à nouveau le contour à 0",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Maintenant pour dessiner une forme avec beaucoup de côtés - **tape** `polygon -60, 50, 0, 100, 60, 50`",
+            "solution": "polygon -60, 50, 0, 100, 60, 50"
+        }
+    ],
+    "completion_text": "Bien joué! L'espace de travail fait 500 de large et 500 de haut, se déplacer dessus c'est une vraie compétence !",
+    "cover": "stickman.png"
+}

@@ -1,0 +1,23 @@
+{
+    "challenge_title": "Défi {{ id }}:",
+    "start": "Démarrer",
+    "hint": "Indice",
+    "next": "Suivant",
+    "done": "Fait",
+    "can_you_hack_this_challenge": "Peux-tu hacker ce défi ?",
+    "make_it_into_a_fathers_day_card": "Fais-en une carte pour la fête des pères !",
+    "now_sign_up_to_kano_world_to_share_your_creation": "Enregistre-toi dans Kano World pour partager ta création et envoie une carte à ton papa",
+    "share_your_fathers_day_card": "Partage ta carte de la fête des pères !",
+    "now_you_can_share_the_card_on_kano_world": "Maintenant tu peux partager la carte sur Kano World et la partager avec ton papa !",
+    "challenges_completed": "Défis terminés",
+    "now_make_something_new": "Maintenant fais quelque chose de nouveau !",
+    "new_world_unlocked_play_now": "Nouveau monde débloqué ! Joue maintenant - ",
+    "menu": "Menu",
+    "playground": "Cour de récréation",
+    "you_did_it_go_back_for_more_coding_fun": "Tu as réussi, reviens en arrière pour plus de code !",
+    "hour_of_code": "Heure De Code",
+    "solution": "Solution",
+    "success_online": "{{ content.completion_text || 'Bien joué !' }}",
+    "success_offline": "{{ content.completion_text || 'Bien joué !' }} Tu as gagné {{ xpGain }} points d'XP!"
+}
+

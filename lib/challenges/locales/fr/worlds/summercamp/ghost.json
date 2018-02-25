@@ -1,0 +1,91 @@
+{
+    "id": "ghost",
+    "title": "Ghost gathering",
+    "short_title": "Ghost",
+    "description": "Boo! As night falls, the spirits come out to play. A recent poll reported 87% of Chinese office workers believed in ghosts, and according to another report, 25% of Britons say they have seen a ghost. It’s getting dark, so it is hard to see, but we think we found a ghost! Maybe you can find out if it is friendly or not with your creative coding powers.",
+    "icon_class": "challenge_ghost",
+    "completion_text": "Spooky! Can you make the ghost scarier? Maybe if it could say \"Boo!\"...",
+    "difficulty": 2,
+    "cover": "summercamp/day_7.png",
+    "startAt": 6,
+    "summerCamp": true,
+    "rewards": null,
+    "steps": [
+        {
+            "hint": "Select a spooky color for l'arrière-plan - **tape** `background darkpurple`",
+            "solution": "background darkpurple"
+        },
+        {
+            "hint": "Définis the `stroke` to `0`, to avoid drawing lines",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Définis the `color` to `white` for the ghost",
+            "solution": "color white"
+        },
+        {
+            "hint": "Now draw une ellipse for the ghost's body - **tape** `ellipse 120, 140`",
+            "solution": "ellipse 120, 140"
+        },
+        {
+            "hint": "Définis the `color` to `black` for the eyes",
+            "solution": "color black"
+        },
+        {
+            "hint": "Déplace-toi the cursor to draw the first eye - **tape** `move -40, -50`",
+            "solution": "move -40, -50"
+        },
+        {
+            "hint": "Dessine the eye with une ellipse - **tape** `ellipse 20, 30`",
+            "solution": "ellipse 20, 30"
+        },
+        {
+            "hint": "Définis the `color` to `lightgray`",
+            "solution": "color lightgray"
+        },
+        {
+            "hint": "Now draw a `circle` de taille `5`",
+            "solution": "circle 5"
+        },
+        {
+            "hint": "Looking good! Now move the cursor vers la droite for the second eye - **tape** `move 30`",
+            "solution": "move 30"
+        },
+        {
+            "hint": "Définis the `color` back to `black` for the second eye",
+            "solution": "color black"
+        },
+        {
+            "hint": "Dessine the second eye with une ellipse - **tape** `ellipse 20, 30`",
+            "solution": "ellipse 20, 30"
+        },
+        {
+            "hint": "Définis the `color` to `lightgray`",
+            "solution": "color lightgray"
+        },
+        {
+            "hint": "Dessine a `circle` with size `5`",
+            "solution": "circle 5"
+        },
+        {
+            "hint": "Almost there! Définis the `color` to `white`",
+            "solution": "color white"
+        },
+        {
+            "hint": "Now move the cursor to the bottom - **tape** `move -80, 150`",
+            "solution": "move -80, 150"
+        },
+        {
+            "hint": "Let's open a loop - **tape** `for i in [ 1 .. 5 ]`",
+            "solution": "for i in [ 1 .. 5 ]"
+        },
+        {
+            "hint": "Dessine a `circle` de taille `45`",
+            "solution": "    circle 45"
+        },
+        {
+            "hint": "And move the cursor slightly vers la droite - **tape** `move 45`",
+            "solution": "    move 45"
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "id": "tent",
+    "title": "Pitch your Tent",
+    "short_title": "Tent",
+    "description": "No campsite is complete without a tent. We’ve got you settled with a simple fly tent, which is usually made with a tarpaulin, rope, and stakes. But with your creative powers you can transform it into whatever you want!  \nPeople have lived in tents, teepees, yurts, and wigwams for thousands of years. What features can you add to your tent to keep yourself dry and warm? You can always get inspiration from browsing other creations on Kano World, and searching the Internet for other tent designs.",
+    "icon_class": "challenge_setcamp",
+    "completion_text": "Nice job! You learnt in the last challenge how to draw a tree, why not adding it to the scene? Is that a bird flying in the sky?",
+    "cover": "summercamp/day_3.png",
+    "difficulty": 1,
+    "startAt": 2,
+    "summerCamp": true,
+    "rewards": {
+        "wallpaper": 1
+    },
+    "steps": [
+        {
+            "hint": "Dessine a sunny day - **tape** `background lightblue`",
+            "solution": "background lightblue"
+        },
+        {
+            "hint": "Définis the stroke to 0, to avoid drawing lines - **tape** `stroke 0`",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Déplace-toi the cursor where the sun will be - **tape** `moveTo 400, 50`",
+            "solution": "moveTo 400, 50"
+        },
+        {
+            "hint": "Définis the `color` of the sun `yellow`",
+            "solution": "color yellow"
+        },
+        {
+            "hint": "Dessine the sun with un cercle - **tape** `circle 40`",
+            "solution": "circle 40"
+        },
+        {
+            "hint": "Déplace-toi the cursor to draw some grass - **tape** `moveTo 0, 350`",
+            "solution": "moveTo 0, 350"
+        },
+        {
+            "hint": "Définis the `color` of the grass `green`",
+            "solution": "color green"
+        },
+        {
+            "hint": "Dessine the grass using a rectangle - **tape** `rectangle 500, 150`",
+            "solution": "rectangle 500, 150"
+        },
+        {
+            "hint": "Excellent! Now we are ready to draw the tent - **tape** `color red`",
+            "solution": "color red"
+        },
+        {
+            "hint": "Position the cursor on top of the grass - **tape** `moveTo 100, 350`",
+            "solution": "moveTo 100, 350"
+        },
+        {
+            "hint": "Dessine a triangle using `polygon` - **tape** `polygon 150, -200, 300, 0`",
+            "solution": "polygon 150, -200, 300, 0"
+        },
+        {
+            "hint": "We need the entrace now. Définis the `color` to `darkred`",
+            "solution": "color darkred"
+        },
+        {
+            "hint": "Place the cursor on the tip of the tent - **tape** `moveTo 250, 150`",
+            "solution": "moveTo 250, 150"
+        },
+        {
+            "hint": "Dessine the entrance - **tape** `polygon 30, 200, -30, 200`",
+            "solution": "polygon 30, 200, -30, 200"
+        }
+    ]
+}

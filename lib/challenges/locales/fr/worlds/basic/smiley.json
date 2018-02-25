@@ -1,0 +1,50 @@
+{
+    "id": "smiley",
+    "title": "Ton premier visage",
+    "description": "Dessine un visage",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "Définis la couleur de dessin à jaune (yellow) - **tape** `color yellow`",
+            "solution": "color yellow"
+        },
+        {
+            "hint": "Choisis un large contour noir (black) - **tape** `stroke black, 20`",
+            "solution": "stroke black, 20"
+        },
+        {
+            "hint": "Dessine un cercle de taille 200",
+            "solution": "circle 200"
+        },
+        {
+            "hint": "Déplace-toi en haut à gauche by 80 - **tape** `move -80, -80`",
+            "solution": "move -80, -80"
+        },
+        {
+            "hint": "Définis la couleur de dessin à noir (black)",
+            "solution": "color black"
+        },
+        {
+            "hint": "Dessine un cercle de diamètre 20",
+            "solution": "circle 20"
+        },
+        {
+            "hint": "Déplace-toi à droite de 160 - **tape** `move 160`",
+            "solution": "move 160"
+        },
+        {
+            "hint": "Dessine un autre cercle de taille 20",
+            "solution": "circle 20"
+        },
+        {
+            "hint": "Déplace-toi en bas au centre - Sur une nouvelle ligne, **tape** `moveTo 250, 270`",
+            "solution": "moveTo 250, 270"
+        },
+        {
+            "hint": "Un arc est un morceau d'un cercle, nous pouvons en dessiner un pour la bouche - **tape** `arc 100, 1, 2`",
+            "solution": "arc 100, 1, 2"
+        }
+    ],
+    "completion_text": "Sympa ! Continue le bon travail, petit génie qui sait dessiner des visages !",
+    "cover": "smiley.png"
+}

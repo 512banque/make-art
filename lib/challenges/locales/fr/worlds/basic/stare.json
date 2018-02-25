@@ -1,0 +1,55 @@
+{
+    "id": "stare",
+    "title": "Regard dans le noir",
+    "description": "Dessine une paire d'yeux qui regardent dans le noir",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "Définis l'arrière-plan à noir (black)",
+            "solution": "background black"
+        },
+        {
+            "hint": "Déplace-toi vers la gauche de 80 - **tape** `move -80`",
+            "solution": "move -80",
+            "validate": "move -80"
+        },
+        {
+            "hint": "Définis la couleur de dessin à blanc (white)",
+            "solution": "color white"
+        },
+        {
+            "hint": "Dessine une ellipse, c'est comme un cercle étiré - **tape** `ellipse 60, 40`",
+            "solution": "ellipse 60, 40"
+        },
+        {
+            "hint": "Définis la couleur de dessin à noir (black) - **tape** `color black`",
+            "solution": "color black"
+        },
+        {
+            "hint": "Dessine un cercle de taille 10 - **tape** `circle 10`",
+            "solution": "circle 10"
+        },
+        {
+            "hint": "Déplace-toi vers la droite de 160 - **tape** `move 160`",
+            "solution": "move 160"
+        },
+        {
+            "hint": "Définis à nouveau la couleur de dessin à blanc (white)",
+            "solution": "color white"
+        },
+        {
+            "hint": "Maintenant dessine une autre ellipse de largeur 60 et hauteur 40 -  **tape** `ellipse 60, 40`",
+            "solution": "ellipse 60, 40"
+        },
+        {
+            "hint": "Définis la couleur de dessin à noir (black)",
+            "solution": "color black"
+        },
+        {
+            "hint": "Termine en dessinant un cercle de taille 10",
+            "solution": "circle 10"
+        }
+    ],
+    "completion_text": "Tu es un magicien ! La prochaine fois que j'ai besoin d'yeux qui font peur, je sais qui appeler !",
+    "cover": "stare.png"
+}

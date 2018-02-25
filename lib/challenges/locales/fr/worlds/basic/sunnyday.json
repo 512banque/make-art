@@ -1,0 +1,23 @@
+{
+    "id": "sunnyday",
+    "title": "Jour ensoleillé",
+    "description": "Apprends les bases en codant un jour ensoleillé.",
+    "code": "",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "D'abord nous allons remplir l'espace de travail avec un joli ciel bleu - **tape** `background blue`",
+            "solution": "background blue"
+        },
+        {
+            "hint": "Maintenant nous devons changer la couleur de dessin en jaune (yellow) - sur une nouvelle ligne, **tape** `color yellow`",
+            "solution": "color yellow"
+        },
+        {
+            "hint": "Finalement, nous dessinons le soleil, nous utilisons la commande `circle` suivie de la taille que nous voulons pour créer le cercle - sur une nouvelle ligne **tape** `circle 150`",
+            "solution": "circle 150"
+        }
+    ],
+    "completion_text": "Bien joué ! C'est un jour ensoleillé, maintenant change le nombre à côté du cercle pour regarder ce qui se passe",
+    "cover": "sunny-day.png"
+}

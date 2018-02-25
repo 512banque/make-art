@@ -1,0 +1,39 @@
+{
+    "id": "dots",
+    "title": "Dots Pattern",
+    "description": "Create a fancy dots pattern using loops and circles!",
+    "code": "",
+    "startAt": 1,
+    "steps": [
+        {
+            "hint": "Définis l'arrière-plan to red",
+            "solution": "background red"
+        },
+        {
+            "hint": "Définis the stroke to 0",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Définis the color to yellow",
+            "solution": "color yellow"
+        },
+        {
+            "hint": "Now open a loop - **tape** `for x in [ 0 .. 25 ]`",
+            "solution": "for x in [ 0..25 ]"
+        },
+        {
+            "hint": "Inside this loop, open a second loop - **tape** `for y in [ 0 .. 25 ]`",
+            "solution": "    for y in [ 0..25 ]"
+        },
+        {
+            "hint": "Déplace-toi around, **tape** `moveTo x * 20, y * 20`",
+            "solution": "        moveTo x * 20, y * 20"
+        },
+        {
+            "hint": "Now for the dots - **tape** `circle 6`",
+            "solution": "        circle 6"
+        }
+    ],
+    "completion_text": "Mathematical! Change the numbers and see what happens.",
+    "cover": "dots.png"
+}

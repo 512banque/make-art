@@ -1,0 +1,39 @@
+{
+    "id": "swissflag",
+    "title": "Drapeau suisse",
+    "description": "Dessine le drapeau suisse avec du code",
+    "code": "",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "Maintenant quelque chose d'un poil plus dur. We can make l'arrière-plan a solid color by **tapant** `background red`.",
+            "solution": "background red"
+        },
+        {
+            "hint": "Nous allons dessiner des lignes, donc nous avons besoin de leur définir un beau contour bien large. **Tape** `stroke 66`",
+            "solution": "stroke 66"
+        },
+        {
+            "hint": "Maintenant définissons la couleur du contour à blanc (white) - sur la troisième ligne, **tape** `stroke white`",
+            "solution": "stroke white"
+        },
+        {
+            "hint": "Dessinons notre première ligne. Nous avons déjà défini qu'elle sera blanche et de largeur 66. Nous allons dessiner une ligne de longueur 100 en **tapant** `line 100`.",
+            "solution": "line 100"
+        },
+        {
+            "hint": "Quelle ligne courte et épaisse. Elle a besoin d'une copine. On va lui dessiner sa copine de 100 pixels de long elle aussi, mais cette fois dans la direction opposée. **Tape** `line -100`.",
+            "solution": "line -100"
+        },
+        {
+            "hint": "Bien mieux, maintenant nous avons besoin des lignes en haut et en bas. Mais comment allons-nous faire ça ? La fonction ligne accepte en réalité 2 nombres. Le premier nombre contrôle la position horizontale, le second nombre contrôle la position verticale. **Tape** `line 0, 100`",
+            "solution": "line 0, 100"
+        },
+        {
+            "hint": "La ligne descend ! Pour aller dans l'autre direction, nous avons besoin de **taper** `line 0, -100`.",
+            "solution": "line 0, -100"
+        }
+    ],
+    "completion_text": "Quel beau drapeau ! Les suisses sont connus pour leurs designs simples et minimalistes.",
+    "cover": "swissflag.png"
+}

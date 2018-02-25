@@ -1,0 +1,97 @@
+{
+    "id": "campsite",
+    "title": "Dessine your Campsite",
+    "short_title": "Campsite",
+    "description": "Time to find a clearing to set up camp. The most important thing to look for when searching for an optimal campsite is flat ground. If possible, keep your campsite close to a water source. This will make cooking and cleanup much easier. Finally, make sure to be surrounded by trees, as they are a great source of kindling and will provide protection from the sun.  \nYour friends will want to see what your campsite looks like, so once you have one, draw it! You can use code to set the scene for where you are staying for the next two weeks.",
+    "icon_class": "challenge_location",
+    "completion_text": "The camp site is looking great! Try adding more trees, flowers, rocks... perhaps a fence as well?",
+    "cover": "summercamp/day_2.png",
+    "difficulty": 1,
+    "startAt": 1,
+    "summerCamp": true,
+    "rewards": {
+        "outfit": 1
+    },
+    "steps": [
+        {
+            "hint": "Today is a beautiful day - **tape** `background blue`",
+            "solution": "background blue"
+        },
+        {
+            "hint": "Définis the stroke to 0, to avoid drawing lines - **tape** `stroke 0`",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Déplace-toi the cursor where the sun will be - **tape** `moveTo 400, 50`",
+            "solution": "moveTo 400, 50"
+        },
+        {
+            "hint": "Définis the `color` of the sun `yellow`",
+            "solution": "color yellow"
+        },
+        {
+            "hint": "Dessine the sun with un cercle - **tape** `circle 40`",
+            "solution": "circle 40"
+        },
+        {
+            "hint": "There is one cloud in the horizon. - **tape** `moveTo 440, 80`",
+            "solution": "moveTo 440, 80"
+        },
+        {
+            "hint": "Définis the `color` of the cloud `white`",
+            "solution": "color white"
+        },
+        {
+            "hint": "Dessine the cloud with une ellipse - **tape** `ellipse 60, 20`",
+            "solution": "ellipse 60, 20"
+        },
+        {
+            "hint": "The lake has a beautiful `color` `aquamarine` this morning",
+            "solution": "color aquamarine"
+        },
+        {
+            "hint": "Déplace-toi the cursor where the lake is - **tape** `moveTo 0, 190`",
+            "solution": "moveTo 0, 190"
+        },
+        {
+            "hint": "Dessine the lake using a simple rectangle - **tape** `rectangle 500, 310`",
+            "solution": "rectangle 500, 310"
+        },
+        {
+            "hint": "Définis the `color` to `green` for the grass",
+            "solution": "color green"
+        },
+        {
+            "hint": "Déplace-toi the cursor before drawing the grass - **tape** `moveTo 250, 700`",
+            "solution": "moveTo 250, 700"
+        },
+        {
+            "hint": "Dessine the camp site with un cercle - **tape** `circle 500`",
+            "solution": "circle 500"
+        },
+        {
+            "hint": "Looking a bit empty, let's draw a tree - **tape** `moveTo 120, 300`",
+            "solution": "moveTo 120, 300"
+        },
+        {
+            "hint": "Définis the `color` of the trunk to `brown`",
+            "solution": "color brown"
+        },
+        {
+            "hint": "Dessine the trunk of the tree using a rectangle - **tape** `rectangle 15, 100`",
+            "solution": "rectangle 15, 100"
+        },
+        {
+            "hint": "Now place the foliage of the tree - **tape** `move 8, -120`",
+            "solution": "move 8, -120"
+        },
+        {
+            "hint": "Définis the `color` to `darkgreen`",
+            "solution": "color darkgreen"
+        },
+        {
+            "hint": "Dessine the foliage with a triangle using `polygon` - **tape** `polygon -40, 160, 40, 160`",
+            "solution": "polygon -40, 160, 40, 160"
+        }
+    ]
+}

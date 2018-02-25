@@ -1,0 +1,87 @@
+{
+    "id": "house",
+    "title": "House",
+    "description": "Dessine a cosy house!",
+    "code": "",
+    "startAt": 1,
+    "steps": [
+        {
+            "hint": "Let's start with the sky! Définis the `background` to `blue`",
+            "solution": "background blue"
+        },
+        {
+            "hint": "Now set the stroke to 0",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Déplace-toi to the en haut à gauche, **tape** `move -150, -50`",
+            "solution": "move -150, -50"
+        },
+        {
+            "hint": "Now set the color to beige",
+            "solution": "color beige"
+        },
+        {
+            "hint": "Now draw rectangle, **tape** `rectangle 300, 200`",
+            "solution": "rectangle 300, 200"
+        },
+        {
+            "hint": "Déplace-toi vers la droite and up, **tape** `move 150, -100`",
+            "solution": "move 150, -100"
+        },
+        {
+            "hint": "Définis the color to darkred for the roof",
+            "solution": "color darkred"
+        },
+        {
+            "hint": "Now let's draw the roof, **tape** `polygon 170, 100, -170, 100`",
+            "solution": "polygon 170, 100, -170, 100"
+        },
+        {
+            "hint": "Déplace-toi vers la gauche and down, **tape** `move -250, 300`",
+            "solution": "move -250, 300"
+        },
+        {
+            "hint": "Now set the color to green for the grass",
+            "solution": "color green"
+        },
+        {
+            "hint": "Dessine rectangle for the grass, width a size of 500, 100",
+            "solution": "rectangle 500, 100"
+        },
+        {
+            "hint": "Déplace-toi vers la droite and up, **tape** `move 220, -80`",
+            "solution": "move 220, -80"
+        },
+        {
+            "hint": "Now set the color to brown for the wooden door",
+            "solution": "color brown"
+        },
+        {
+            "hint": "Dessine rectangle for the door, de taille 60, 80",
+            "solution": "rectangle 60, 80"
+        },
+        {
+            "hint": "Définis the color to aqua for the windows",
+            "solution": "color aqua"
+        },
+        {
+            "hint": "Déplace-toi to the en haut à gauche, **tape** `move -80, -80`",
+            "solution": "move -80, -80"
+        },
+        {
+            "hint": "Dessine square de taille 50",
+            "solution": "square 50"
+        },
+        {
+            "hint": "Déplace-toi vers la droite, **tape** `move 170`",
+            "solution": "move 170"
+        },
+        {
+            "hint": "Dessine square de taille 50",
+            "solution": "square 50"
+        }
+    ],
+    "completion_text": "You built an awesome house with code!",
+    "cover": "house.png"
+}

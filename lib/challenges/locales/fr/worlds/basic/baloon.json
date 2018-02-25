@@ -1,0 +1,42 @@
+{
+    "id": "baloon",
+    "title": "Ballon bleu",
+    "cover": "blue-baloon.png",
+    "description": "Dessine un ballon qui flotte dans l'air en utilisant des polygones !",
+    "startAt": 2,
+    "steps": [
+        {
+            "hint": "Définis la couleur en bleu - **tape** `color blue`",
+            "solution": "color blue"
+        },
+        {
+            "hint": "Définis le contour à 0, pour éviter de dessiner des lignes",
+            "solution": "stroke 0"
+        },
+        {
+            "hint": "Dessine un cercle avec une taille de 100",
+            "solution": "circle 100"
+        },
+        {
+            "hint": "Descends de 100 - **tape** `move 0, 100`",
+            "solution": "move 0, 100"
+        },
+        {
+            "hint": "Dessine le noeud - **tape** `polygon 15, 15, -15, 15`",
+            "solution": "polygon 15, 15, -15, 15"
+        },
+        {
+            "hint": "Descends un peu plus - **tape** `move 0, 15`",
+            "solution": "move 0, 15"
+        },
+        {
+            "hint": "Choisis un large contour noir - **tape** `stroke black, 5`",
+            "solution": "stroke black, 5"
+        },
+        {
+            "hint": "Dessine la ligne de la ficelle du ballon - **tape** `line 0, 200`",
+            "solution": "line 0, 200"
+        }
+    ],
+    "completion_text": "Ce ballon est génial ! Pourquoi ne pas changer la couleur avant de continuer ?"
+}

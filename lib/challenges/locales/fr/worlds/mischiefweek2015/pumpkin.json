@@ -1,0 +1,87 @@
+{
+    "id": "pumpkin",
+    "title": "Kan-o-lantern",
+    "cover": "mischiefweek2015/mw-003-pumpkin.png",
+    "description": "It wouldn't be Halloween without pumpkins, learn how to carve a spooky pumpkin then get creative by changing the face.",
+    "start_date": "2015-10-28T06:00:00",
+    "completion_text": "That's a nice Kan-o-lantern! But it needs to be lit to be truly spooky, can you figure out how to light the pumpkin by changing some colors, you could also try carving a spookier looking face. Show off your creativity then share your creation.",
+    "startAt": 0,
+    "steps": [
+            {
+                "hint": "Let’s set a spooky scene, make it night time - **tape** `background charcoal`",
+                "solution": "background charcoal"
+            },
+            {
+                "hint": "The most distinctive thing about pumpkins is their bright orange skin, to set your fill color  - **tape** `color orange`",
+                "solution": "color orange"
+            },
+            {
+                "hint": "We're going to use strokes to build the bulbous shape of the pumpkin, use the darken function to build contrast against the skin - **tape** `stroke darken(orange, 20), 30`",
+                "solution": "stroke darken(orange, 20), 30"
+            },
+            {
+                "hint": "Build your pumpkin slice by slice using ellipses - **tape** `ellipse 180, 140`",
+                "solution": "ellipse 180, 140"
+            },
+            {
+                "hint": "Add another slice - **tape** `ellipse 130, 140`",
+                "solution": "ellipse 130, 140"
+            },
+            {
+                "hint": "It's starting to take shape, add the final slice the same way - **tape** `ellipse 50, 140`",
+                "solution": "ellipse 50, 140"
+            },
+            {
+                "hint": "Pumpkins are actually fruits, so we need to draw a green stem - **tape** `color green`",
+                "solution": "color green"
+            },
+            {
+                "hint": "Turn off the orange stroke - **tape** `stroke 0`",
+                "solution": "stroke 0"
+            },
+            {
+                "hint": "Déplace-toi the cursor to the top of the pumpkin - **tape** `move -20, -180`",
+                "solution": "move -20, -180"
+            },
+            {
+                "hint": "Dessine the chunky stem of the pumpkin - **tape** `square 40`",
+                "solution": "square 40"
+            },
+            {
+                "hint": "Now we have a fresh pumpkin, we can get to the fun part, carving your design - **tape** `color black`",
+                "solution": "color black"
+            },
+            {
+                "hint": "We're going to give them a face, move the cursor to where the eye will be - **tape** `moveTo 190, 275`",
+                "solution": "moveTo 190, 275"
+            },
+            {
+                "hint": "Cut a hole for the first eye - **tape** `circle 15`",
+                "solution": "circle 15"
+            },
+            {
+                "hint": "Déplace-toi the cursor to where the second eye will be - **tape** `moveTo 310, 275`",
+                "solution": "moveTo 310, 275"
+            },
+            {
+                "hint": "Cut the second hole the same size as the first - **tape** `circle 15`",
+                "solution": "circle 15"
+            },
+            {
+                "hint": "Next we need to give them a mouth - **tape** `moveTo 250, 320`",
+                "solution": "moveTo 250, 320"
+            },
+            {
+                "hint": "We need to turn the fill colour off by setting it to null - **tape** `color null`",
+                "solution": "color null"
+            },
+            {
+                "hint": "We'll use un large contour noir for the mouth - **tape** `stroke 15, black`",
+                "solution": "stroke 15, black"
+            },
+            {
+                "hint": "Finally we will use the arc command to give them a smile. - **tape** `arc 40, 1, 2, true`",
+                "solution": "arc 40, 1, 2, true"
+            }
+    ]
+}
